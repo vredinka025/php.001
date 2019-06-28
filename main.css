@@ -1,0 +1,23 @@
+table {
+    min-widht: 40%;}
+th,td {
+    border: 1px solid grey;
+}
+.selected {
+    background: greenyellow;
+}
+tr.selected {
+    background: red;
+}
+#row4 {
+    background: aqua;
+}
+table h1 {
+    color: blue;
+}
+td > p {
+    color: #ff26d0;
+}
+td p {
+    font-size: 2em;
+}
