@@ -5,7 +5,7 @@
     <title>Форма</title>
 </head>
 <body>
-    <form action="form new.php" method="get">
+    <form action="form new.php" method="post" enctype="multipart/form-data">
         <label for="q">Поиск</label>
         <input id="q" name="q" placeholder="Введите строку для поиска" >
         <br>
@@ -52,8 +52,11 @@
             <option>Запорожье</option>
         </select>
         <br>
+        <input type="file" name="file">
+
+
         <input type="submit" value="Отправить">
-        <button type="submit"><b>Отправить</b></button>
+        <button type="submit">Отпр<b>авить</b></button>
 
         <input type="reset">
 
