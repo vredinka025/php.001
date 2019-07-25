@@ -20,4 +20,6 @@ td > p {
 }
 td p {
     font-size: 2em;
+ol {
+    color: red;
 }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+</head>
+<body>
+<form action="form new.php" method="post" enctype="multipart/form-data">
+    <h1>Задание 1</h1>
+    <input placeholder="Плейсхолдер">
+    <br>
+    <br>
+    <input value="Value">
+    <br>
+    <br>
+    <input value="disabled" disabled>
+    <br>
+    <br>
+    <input type="password" placeholder="Введите пароль" value="111111">
+    <br>
+    <br>
+    <textarea name="text" placeholder="Введите текст"></textarea>
+    <br>
+    <br>
+    <input type="submit" value="Кнопка через тег input">
+    <br>
+    <br>
+    <button type="submit">Кнопка через тег button</button>
+    <br>
+    <h1>Задание 2</h1>
+    <input id="i" placeholder="Плейсхолдер">
+    <label for="i">Это метка для инпута - нажмите на меня - и инпут получит фокус!</label>
+    <br>
+    <br>
+    <input type="submit" value="Отправить на сервер">
+    <br>
+    <h1>Задание 3</h1>
+    <input id="check" type="checkbox">
+    <label for="check">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!
+    </label>
+    <br>
+    <br>
+    <input id="check1" type="checkbox">
+    <label for="check1">Я отмечен по умолчанию!</label>
+    <br>
+    <br>
+    <input id="disabled" type="checkbox" checked disabled>
+    <label for="disabled">Я disabled</label>
+    <br>
+    <br>
+    <div>
+        <p>
+            Это группа радиокнопок - только одна из них может быть отмечена!
+        </p>
+        <input type="radio" id="q1" name="radio1">
+        <label for="q1">Это метка для радио</label>
+        <br>
+        <br>
+        <input type="radio" id="q1" name="radio1">
+        <label for="q1">Это метка для радио</label>
+    </div>
+    <br>
+    <br>
+    <input type="submit" value="Отправить на сервер">
+    <br>
+    <h1>Задание 4</h1>
+    <select>
+        <option>Минск</option>
+        <option>Киев</option>
+        <option>Москва</option>
+        <option selected>Нью Йорк</option>
+        <option>Рига</option>
+        <option>Варшава</option>
+        <option>Рим</option>
+    </select>
+    <select size="3">
+        <option>Минск</option>
+        <option>Киев</option>
+        <option>Москва</option>
+        <option selected>Нью Йорк</option>
+        <option>Рига</option>
+        <option>Варшава</option>
+        <option>Рим</option>
+    </select>
+    <select size="5">
+        <option>Минск</option>
+        <option>Киев</option>
+        <option>Москва</option>
+        <option selected>Нью Йорк</option>
+        <option>Рига</option>
+        <option>Варшава</option>
+        <option>Рим</option>
+    </select>
+    <input type="submit" value="Отправить на сервер">
+    <br>
+    <br>
+    <h1>Задание 34</h1>
+    <link rel="stylesheet" href="main.css">
+    <h2 style="color:red"><font size="6"> Что нужно знать, чтобы делать сайты</font></h2>
+    <ol style="color:red">
+        <li><strong><font size="5">HTML</font></strong></li>
+        <li style="color:blue"><em><strong>CSS</strong></em></li>
+        <li>PHP</li>
+        <li>SQL</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Flash</li>
+        <li>SEO</li>
+    </ol>
+    <h3 style="color:darkgreen"><strong>PHP и JavaScript</strong></h3>
+    Языки программирования <strong style="color:red"><font size="4">PHP</font></strong> и
+    <strong style="color:red"><font size="4">JavaScript</font></strong> позволяют сделать сайт динамичным,
+    то есть реагирующим на действия пользователя. Например, можно сделать красивую выпадающую менюшку или слайдер
+
+    <h3 style="color:darkgreen"><strong>Виды скриптов</strong></h3>
+    Для этого пишутся скрипты (англ. <em style="color:blue"><strong>script</strong></em> - «сценарий») -
+    программы, позволяющие реагировать на действия пользователя. Скрипты бывают двух видов:
+    <ul style="color:rebeccapurple"><em>
+       <li>
+           те, которые выполняются на сервере, а результат их выполнения приходит в браузер к пользователю уже
+           в готовом виде. Это скрипты, написанные на языке
+           <strong style="color:red"><font size="4">PHP</font></strong>. На нем пишутся
+           <strong style="color:red"><font size="4">CMS-ки</font></strong> – системы управления контентом.
+       </li>
+        <li>
+            те, которые выполняются прямо в браузере пользователя. Это скрипты, написанные на языке
+            <strong style="color:red"><font size="4">JavaScript</font></strong>. Они чаще всего используются
+            для, того чтобы сделать страницу более удобной и красивой.
+        </li>
+    </em>
+    </ul>
+
+</form>
+</body>
+</html>
